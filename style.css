@@ -1,0 +1,68 @@
+body {
+    font-family: 'Abril Fatface', cursive;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#computer, #player {
+    border: 3px solid black;
+    height: 375px;
+    width: 350px;
+    float: left;
+}
+
+.hand {
+    width: 300px;
+    margin-left: 25px;
+}
+
+#score {
+    border: 3px solid black;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    font-size: 20px;
+    margin-left: 180px;
+}
+
+#all-hands {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
