@@ -5,6 +5,7 @@ body {
 h1 {
     text-align: center;
     margin: 10px;
+    font-size: 35px;
 }
 
 h2 {
@@ -24,9 +25,11 @@ h2 {
     float: left;
 }
 
-.hand {
+#playPic, #compPic {
     width: 300px;
-    margin-left: 25px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #score {

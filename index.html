@@ -14,15 +14,19 @@
     <h1>Welcome to Rock Paper Scissors!</h1>
     <img id = "all-hands" src="images/rock paper scissors.jpg" alt="">
 
-    <h3>What is your name?</h3>
+    <h3 id = "whatName">What is your name?</h3>
     <input id= "yourName" type = "text" placeholder ="Enter your name"><br>
-    <button onclick="myFunction(); location.href='game.html'">Play</button>
+    <button onclick="getName()">Play</button>
 
-<script src="logic.js"></script>
+    
+<script type= "text/JavaScript">
+function getName() {
+  const plName = document.getElementById('yourName').value
+  var newName = "?para1=" + plName;
+  window.location.href = "game.html" + newName;
+  console.log(plName)
+}
 
+</script>
 </body>
 </html>
-
-<!-- function myFunction() {
-    var text;
-    var fruits = document.getElementById("myInput").value; -->
